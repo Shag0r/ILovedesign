@@ -1,0 +1,343 @@
+/* start framwork */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #464b4f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    color: #888a8b;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.p-125 {
+    padding-top: 125px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.p-80 {
+    padding-bottom: 80px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb {
+    margin-bottom: 40px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #23232e;
+}
+
+.btn {
+    padding: 20px 50px;
+    background-color: #7b77c9;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* .btn:hover {
+    border: 2px dotted coral;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+
+} */
+strong {
+    color: coral;
+    border-bottom: 2px solid crimson;
+    font-size: 20px;
+}
+
+/* end framwork */
+
+/* head start */
+body {
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #23232e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+
+}
+
+.logo img {
+    width: 110px;
+    height: 110px;
+
+}
+
+.header h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.header p {
+    font-size: 18px;
+    line-height: 30px;
+    /* text-align: center; */
+    margin-bottom: 80px;
+}
+
+.header a span {
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    color: wheat;
+}
+
+/* head end */
+/* what i do start */
+/* .whatidoto {
+    background-image: url(img/bg.png);
+    height: auto;
+    width: 100%;
+} */
+
+.whatidotoabout h5 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: normal;
+    /* margin-bottom: 40px; */
+    text-transform: none;
+}
+
+.section_title h2 {
+    font-size: 80px;
+}
+
+.whati_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.single-item {
+    width: 32%;
+}
+
+.single-item h6 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+
+
+/* what i do end */
+
+
+/* my work  */
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.navbar li a:hover {
+    border-bottom: 5px solid chocolate;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+
+}
+
+.myworkitems {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.mywork_item {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.mywork_item img {
+    margin-bottom: 15px;
+
+}
+
+.mywork_item h6 {
+    font-size: 21px;
+    color: #fff;
+    line-height: 36px;
+    text-transform: none;
+}
+
+.mywork_item p {
+    font-size: 14px;
+    color: #888a8b;
+
+}
+
+/* my work end  */
+/* subscribe option start  */
+.subscribe {
+    padding: 250px 0;
+}
+
+.subscribe .fa-infinity {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.subscribe p {
+    padding: 600;
+}
+
+form input {
+    width: 380px;
+
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inp_btn {
+    width: 200px;
+    background-color: #7b77c9;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* subscribe option end  */
+/* incons and fab icons portion start  */
+.fa-square-twitter,
+.fa-basketball,
+.fa-behance {
+    font-size: 60px;
+    margin: 15px;
+    color: #ddd;
+}
+
+.fa-square-twitter,
+.fa-basketball,
+.fa-behance :hover {
+
+    color: crimson;
+}
+
+
+/* incons and fab icons portion end  */
+
+
+/* responsive design  */
+
+/* mobile device  */
+@media screen and(max-width:1200px) {
+    .single-item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+@media screen and(max-width:992px) {
+    .single-item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .single-item h6 {
+        color: royalblue;
+
+    }
+
+}
+
+@media screen and(max-width:768px) {
+    .single-item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .single-item h6 {
+        color: crimson;
+
+    }
+
+}
+
+@media screen and(max-width:600px) {
+    .single-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .header h1 {
+        font-size: 52px;
+    }
+
+}
+
+/* responsive design end  */

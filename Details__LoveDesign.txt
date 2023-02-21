@@ -1,0 +1,19 @@
+Font Family: 
+1. Segoe UI (Heading, Body text)
+
+
+Colors:
+============================
+Primary Color	: #7b77c9
+Secondary Color	: #23232e
+Body Text	: #888a8b
+
+
+Images: 
+
+
+Full Width	: 1920px
+Container	: 940px
+
+
+
